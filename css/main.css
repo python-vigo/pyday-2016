@@ -1022,7 +1022,7 @@ header .social-links ul li a:focus {
 }
 .main-content-tablecell {
 	display: table-cell;
-	vertical-align: bottom;
+	vertical-align: middle;
 	z-index: 700;
 }
 .main-content-tablecell .row {
@@ -1678,6 +1678,23 @@ header .social-links ul li a:focus {
 }
 .cta-content span {
 	color: #FFFFFF;
+}
+
+.partners-content h2 {
+	position: relative;
+	padding-bottom: 2.1rem;
+	color: #666666;
+}
+.partners-content h2::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 80px;
+	background: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -40px;
 }
 
 /* -------------------------------------------------------------------
