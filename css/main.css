@@ -1710,6 +1710,48 @@ header .social-links ul li a:focus {
 	}
 }
 
+/* ===================================================================
+ * 11. PARTNER - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#partners {
+	background: #FFFFFF;
+	background-image: url(../images/info-bg.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	padding: 10.2rem 0 9rem;
+	position: relative;
+	color: rgba(17, 17, 17, 0.7);
+	text-align: center;
+
+}
+#partners .info-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	opacity: .7;
+}
+
+/* -------------------------------------------------------------------
+ * responsive:
+ * cta
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:650px) {
+	.cta-wrap {
+		max-width: 650px;
+	}
+	.cta-wrap h2 {
+		font-size: 2.7rem;
+	}
+}
+
 
 /* -------------------------------------------------------------------
  * responsive:
