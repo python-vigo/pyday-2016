@@ -1885,6 +1885,7 @@ footer .footer-bottom a:focus {
 
 footer .footer-bottom .footer-logo {
 	display: inline-block;
+	margin-top: 35px;
 	width: 150px;
 }
 
