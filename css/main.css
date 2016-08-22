@@ -1028,7 +1028,7 @@ header .social-links ul li a:focus {
 .main-content-tablecell .row {
 	position: relative;
 	padding-top: 4.2rem;
-	padding-bottom: 15rem;
+	padding-bottom: 32rem;
 }
 
 .main-content-tablecell #counter {
@@ -2070,4 +2070,12 @@ footer .back-to-top a i {
 	footer .back-to-top a {
 		padding: 1.2rem 2.3rem 1.5rem;
 	}
+}
+
+.program {
+	    margin: 50px 300px;
+}
+
+.program table {
+	text-align: center;
 }

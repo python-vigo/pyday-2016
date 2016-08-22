@@ -195,9 +195,9 @@
 	   // main directions
 	   map = new GMaps({
 	      el: '#map',
-	      lat: 42.8708009,
-	      lng: -8.5258937,
-	      zoom: 15,
+	      lat: 42.2372721,
+	      lng: -8.7176959,
+	      zoom: 19,
 	      zoomControl : true,
 	      zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' },
 	      panControl : false,
@@ -207,7 +207,7 @@
 	   map.drawOverlay({
 		   lat: map.getCenter().lat(),
 		   lng: map.getCenter().lng(),
-		   content: '<i class="fa fa-map-marker"></i>',
+		   content: '<i class="flaticon-technology"></i>',
 		   verticalAlign: 'top',
 		   horizontalAlign: 'center'
 		});
