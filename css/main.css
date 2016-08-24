@@ -822,10 +822,10 @@ header .logo a {
 	padding: 0;
 	outline: 0;
 	border: none;
-	width: 97px;
-	height: 84px;
-	background: url("../images/logo_python.png") no-repeat center;
-	background-size: 97px 84px;
+	width: 125px;
+	height: 158px;
+	background: url("../images/logo_pyday.png") no-repeat center;
+	background-size: 125px 158px;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
@@ -983,6 +983,7 @@ header .social-links ul li a:focus {
 }
 #home .row {
 	max-width: 1290px;
+	margin-top: 170px;
 }
 
 #home.home-static {
