@@ -1915,7 +1915,7 @@ header .social-links ul li a:focus {
  #carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
 
  img{
- 	-webkit-filter: grayscale(1);
+ 	-webkit-filter: grayscale(0);
  	cursor: pointer;
  	transition: all .5s ease;
  }
