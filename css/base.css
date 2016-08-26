@@ -822,3 +822,7 @@ textarea {
 	margin-right: auto;
 	text-align: center;
 }
+
+.contributors {
+	width: 100px;
+}
