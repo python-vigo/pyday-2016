@@ -1833,8 +1833,7 @@ header .social-links ul li a:focus {
  *
  * ------------------------------------------------------------------- */
 #partners {
-	background: #FFFFFF;
-	background-image: url(../images/info-bg.jpg);
+	background: #f7f7f7;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
